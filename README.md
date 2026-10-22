@@ -1,6 +1,6 @@
 # Kaggriculture: a farming agent cloned from public replays
 
-Team Smackaveli · 47th of 10,148 on the final leaderboard · [Write-up](https://www.kaggle.com/competitions/kaggriculture/discussion) · [Final agents](https://www.kaggle.com/datasets/spoutop/kaggriculture-smackaveli-final-agents)
+Team Smackaveli · 47th of 10,148 on the final leaderboard · [Write-up](https://www.kaggle.com/competitions/kaggriculture/writeups/47th-place-teaching-a-farming-agent-from-replays) · [Final agents](https://www.kaggle.com/datasets/spoutop/kaggriculture-smackaveli-final-agents)
 
 Training and evaluation code for our Kaggriculture agent. The policy is an 11.79M-parameter convolutional network trained by behaviour cloning on public replays. Five such networks play as a log-probability ensemble through a numpy-only decoder on Kaggle's CPU workers. The weights of our two final submissions are on Kaggle. See Final agents.
 
