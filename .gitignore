@@ -1,0 +1,10 @@
+__pycache__/
+*.pyc
+*.npz
+*.pt
+*.tar.gz
+data/
+replays/
+runs/
+bundles/
+logs/

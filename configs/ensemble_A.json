@@ -1,0 +1,58 @@
+{
+ "members": [
+  "weights_0.npz",
+  "weights_1.npz",
+  "weights_2.npz",
+  "weights_3.npz",
+  "weights_4.npz"
+ ],
+ "weights": [
+  1.0,
+  1.0,
+  1.0,
+  1.0,
+  1.0
+ ],
+ "sources": [
+  "FS3W_s311_q8.npz",
+  "FS3W_s312_q8.npz",
+  "FS3W_s313_q8.npz",
+  "PXLT_s299_q8.npz",
+  "PXLT_s301_q8.npz"
+ ],
+ "detswitch": {
+  "members": [
+   "weights_alt_0.npz",
+   "weights_alt_1.npz",
+   "weights_alt_2.npz",
+   "weights_alt_3.npz",
+   "weights_alt_4.npz",
+   "weights_alt_5.npz"
+  ],
+  "weights": [
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0
+  ],
+  "sources": [
+   "weights_alt_0.npz",
+   "weights_alt_1.npz",
+   "weights_alt_2.npz",
+   "weights_alt_3.npz",
+   "weights_alt_4.npz",
+   "weights_alt_5.npz"
+  ],
+  "detector_source": "detector_final.json"
+ },
+ "correction": "correction.json",
+ "correction_source": "correction_final.json",
+ "book": "book.npz",
+ "book_source": "book_deploy_v2.npz",
+ "book_params": {
+  "hyb": 1,
+  "pmin": 0.05
+ }
+}
